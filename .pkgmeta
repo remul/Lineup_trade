@@ -1,0 +1,17 @@
+package-as: Lineup_trade
+
+ignore:
+  - .gitignore
+  - .pkgmeta
+  - .github
+  # Planning notes for development.
+  - ROADMAP.md
+  # Logo sources for GitHub; only Media/Icon.tga is used in game.
+  - Media/Emblem.svg
+  - Media/Emblem.png
+  - Media/Logo.svg
+  - Media/Logo.png
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown

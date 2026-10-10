@@ -1,0 +1,15 @@
+<Bindings>
+    <!-- Lineup Trade's own section in Options > Keybindings; its name, description (PREFACE) and
+         binding names are in Core.lua. HEADER adds a gap. See Battle.lua and Window.lua. -->
+    <Binding name="PREFACE_LINEUPTRADE" category="BINDING_CATEGORY_LINEUPTRADE"/>
+    <Binding name="LINEUPTRADE_ACTION" category="BINDING_CATEGORY_LINEUPTRADE">
+        LineupTrade_Action()
+    </Binding>
+    <Binding name="HEADER_LINEUPTRADE_WINDOW" category="BINDING_CATEGORY_LINEUPTRADE"/>
+    <Binding name="LINEUPTRADE_TOGGLE" category="BINDING_CATEGORY_LINEUPTRADE">
+        LineupTrade_ToggleWindow()
+    </Binding>
+    <Binding name="LINEUPTRADE_STARTSTOP" category="BINDING_CATEGORY_LINEUPTRADE">
+        LineupTrade_StartStop()
+    </Binding>
+</Bindings>

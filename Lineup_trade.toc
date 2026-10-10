@@ -1,0 +1,34 @@
+## Interface: 120100
+## Title: Lineup Trade
+## Notes: Trade pet battle PvP wins at community events.
+## Author: Remul
+## Version: 0.1.0
+## SavedVariables: LineupTradeDB
+## SavedVariablesPerCharacter: LineupTradeCharDB
+## IconTexture: Interface\AddOns\Lineup_trade\Media\Icon
+## AddonCompartmentFunc: LineupTrade_OnAddonCompartmentClick
+## Category-enUS: Pet Battles
+## Category-deDE: Haustierkämpfe
+## Category-esES: Duelos de mascotas
+## Category-esMX: Duelos de mascotas
+## Category-frFR: Combats de mascottes
+## Category-itIT: Scontri tra mascotte
+## Category-koKR: 애완동물 대전
+## Category-ptBR: Batalhas de mascotes
+## Category-ruRU: Битвы питомцев
+## Category-zhCN: 宠物对战
+## Category-zhTW: 寵物對戰
+
+Locales\Locales.lua
+Locales\deDE.lua
+Locales\frFR.lua
+Locales\itIT.lua
+Locales\ruRU.lua
+Core.lua
+Badge.lua
+Code.lua
+Team.lua
+Trade.lua
+Achievements.lua
+Battle.lua
+Window.lua
